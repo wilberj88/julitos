@@ -6,11 +6,11 @@ import numpy as np
 st.set_page_config(layout="wide", page_title="Julitos", page_icon="☘️")
 
 st.title('Julitos ☘️')
-st.header("Gánate tu primer Julito")
-
 st.write("Bienvenidos a la tienda más parchada de todas")
 
-st.write("Formulario de Registro👋")
+st.header("Gánate tu primer Julito")
+
+st.write("Formulario de Registro✍")
     
 
 d = st.text_input('Nombre')
