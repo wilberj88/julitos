@@ -25,11 +25,11 @@ c = st.text_input('3. Dirección?')
 
 f = st.write("Adicionalmente, cuéntanos:")
 
-g = st.slider('Mensualmente: ¿cuál es tu presupuesto Julitos 🚬')
+g = st.slider('¿cuántos Julitos ☘️ te fumas al mes', 0, 100)
 
-h = st.slider('¿Cuánto gramos consumes a la semana?', 0, 100)
+h = st.slider('¿Cuánto te cuestan todos los julitos del mes?', 0, 250000)
 
-i = st.radio('Indícanos tus cepas preferidas:', ['Orange', 'Gorila Kush', 'Gorila Og', 'PuntoRojo', 'IRE', 'Amazonas'])
+i = st.radio('Indícanos tu cepas preferidas:', ['Orange', 'Gorila Kush', 'Gorila Og', 'PuntoRojo', 'IRE', 'Amazonas'])
 
 if a and b and c:
   st.write('Muchas gracias, ', d, e, 'Enviamos un correo de confirmación a  <<',a, '>>. Estamos preparando el envío de tu Julito hacia la ciudad de <<', b, '>> a la dirección: <<', c, '>>. REPORTE DE USUARIO: consumo mensual en gramos es de <<',h, '>>, en presupuesto es de <<',g, '>> y su cepa preferida es <<',i, '>>')
