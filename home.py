@@ -39,4 +39,4 @@ picture = st.camera_input("Sonríe para nuestro registro")
 
 if picture:
     st.image(picture)
-    st.write('Bienvenido a la comunidad de Julitos☘️. Ya eres parte de nuestro parche. REPORTE DE USUARIO: consumo mensual en gramos es de <<',h, '>>, en presupuesto es de <<',g, '>> y su cepa preferida es <<',i, '>>')
+    st.write('Bienvenido a la comunidad de Julitos☘️. Ya eres parte de nuestro parche. REPORTE DE USUARIO: consumo mensual en Julitos es de <<',g, '>>, en presupuesto es de <<',h, '>> y su cepa preferida es <<',i, '>>')
