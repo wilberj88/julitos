@@ -32,11 +32,11 @@ h = st.slider('¿Cuánto te cuestan todos los julitos del mes?', 0, 250000)
 i = st.radio('Indícanos tu cepas preferidas:', ['Orange', 'Gorila Kush', 'Gorila Og', 'PuntoRojo', 'IRE', 'Amazonas'])
 
 if a and b and c:
-  st.write('Muchas gracias, ', d, e, 'Enviamos un correo de confirmación a  <<',a, '>>. Estamos preparando el envío de tu Julito hacia la ciudad de <<', b, '>> a la dirección: <<', c, '>>. REPORTE DE USUARIO: consumo mensual en gramos es de <<',h, '>>, en presupuesto es de <<',g, '>> y su cepa preferida es <<',i, '>>')
+  st.write('Muchas gracias, ', d, e, 'Enviamos un correo de confirmación a  <<',a, '>>. Estamos preparando el envío de tu Julito hacia la ciudad de <<', b, '>> a la dirección: <<', c, '>>.')
 
 
 picture = st.camera_input("Sonríe para nuestro registro")
 
 if picture:
     st.image(picture)
-    st.write('Bienvenido a la comunidad de Julitos☘️. Ya eres parte de nuestro parche')
+    st.write('Bienvenido a la comunidad de Julitos☘️. Ya eres parte de nuestro parche. REPORTE DE USUARIO: consumo mensual en gramos es de <<',h, '>>, en presupuesto es de <<',g, '>> y su cepa preferida es <<',i, '>>')
