@@ -24,7 +24,7 @@ b = st.text_input('2. Ciudad ')
 c = st.text_input('3. Dirección?')
 
 if a and b and c:
-  st.write('Muchas gracias, 'd, e, 'Enviamos un correo de confirmación a  <<',a, '>>. Estamos preparando el envío de tu Julito hacia la ciudad de <<', b, '>> a la dirección: <<', c, '>>')
+  st.write('Muchas gracias, ', d, e, 'Enviamos un correo de confirmación a  <<',a, '>>. Estamos preparando el envío de tu Julito hacia la ciudad de <<', b, '>> a la dirección: <<', c, '>>')
 
 st.write("Adicionalmente, cuéntanos:")
 
