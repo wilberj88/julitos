@@ -19,7 +19,7 @@ if picture:
     st.write('Bienvenido a la comunidad de Julitos 🚬')
 
     
-a = st.text_input('1. Correo')
+a = st.text_input('1. Correo electrónico')
 
 b = st.text_input('2. Ciudad ')
 
