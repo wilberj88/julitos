@@ -27,7 +27,7 @@ f = st.write("Adicionalmente, cuéntanos:")
 
 g = st.slider('Mensualmente: ¿cuál es tu presupuesto Julitos 🚬')
 
-h = st.slider('¿Cuánto gramos consumes a la semana?', 0, 1000000, key="presupuesto")
+h = st.slider('¿Cuánto gramos consumes a la semana?', 0, 100)
 
 i = st.radio('Indícanos tus cepas preferidas:', ['Orange', 'Gorila Kush', 'Gorila Og', 'PuntoRojo', 'IRE', 'Amazonas'])
 
