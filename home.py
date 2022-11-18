@@ -5,7 +5,7 @@ import numpy as np
 # SETTING PAGE CONFIG TO WIDE MODE AND ADDING A TITLE AND FAVICON
 st.set_page_config(layout="wide", page_title="Julitos", page_icon="☘️")
 
-st.title('Julitos ☘️')
+st.title('Batecitos ☘️')
 st.write("Bienvenidos a la tienda más parchada de todas")
 
 st.header("Gánate tu primer Julito")
