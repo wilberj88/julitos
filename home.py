@@ -8,7 +8,7 @@ st.set_page_config(layout="wide", page_title="Julitos", page_icon="☘️")
 st.title('Batecitos ☘️')
 st.write("Bienvenidos a la tienda más parchada de todas")
 
-st.header("Gánate tu primer Julito")
+st.header("Gánate tu primer roll")
 
 st.write("Formulario de Registro✍")
     
